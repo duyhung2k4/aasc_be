@@ -1,7 +1,7 @@
 import axios from "axios";
-import HttpUtils from "@/utils/http";
+import HttpUtils from "../utils/http";
 import { Request, Response } from "express";
-import { LoginResponse } from "@/dto/response/auth";
+import { LoginResponse } from "../dto/response/auth";
 
 export class AuthController {
     private httpUitls: HttpUtils;

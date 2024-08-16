@@ -1,7 +1,7 @@
 import axios from "axios";
-import HttpUtils from "@/utils/http";
+import HttpUtils from "../utils/http";
 import { Request, Response } from "express";
-import { EmployeeResponse } from "@/dto/response/user";
+import { EmployeeResponse } from "../dto/response/user";
 
 export class UserController {
     private httpUitls: HttpUtils;
